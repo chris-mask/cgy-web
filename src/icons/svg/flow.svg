@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #d0e8f2;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" class="cls-1" d="M18,0V18H0V0H18Z"/>
+    </clipPath>
+  </defs>
+  <g id="研发流程管理" transform="translate(-11 -92)">
+    <rect id="矩形_3404" data-name="矩形 3404" class="cls-2" width="18" height="18" transform="translate(11 92)"/>
+    <g id="Page_1" data-name="Page 1" transform="translate(11 92)">
+      <path id="Clip_2-2" data-name="Clip 2" class="cls-2" d="M18,0V18H0V0H18Z" transform="translate(0 0)"/>
+      <g id="Page_1-2" data-name="Page 1" class="cls-3" transform="translate(0 0)">
+        <path id="Fill_1" data-name="Fill 1" class="cls-4" d="M8.953,18A8.754,8.754,0,0,1,4.39,16.73a3.535,3.535,0,0,0,1.265-2.69,3.692,3.692,0,0,0-3.77-3.6,3.9,3.9,0,0,0-1.374.247A7.8,7.8,0,0,1,1.833,5.5,8.4,8.4,0,0,1,5.361,2.559,3.752,3.752,0,0,0,9.047,5.4a3.724,3.724,0,0,0,3.666-2.761,8.38,8.38,0,0,1,3.409,2.933A7.811,7.811,0,0,1,17.434,9.9c0,.256-.012.51-.036.754a3.911,3.911,0,0,0-1.283-.214,3.692,3.692,0,0,0-3.77,3.6A3.537,3.537,0,0,0,13.57,16.7,8.738,8.738,0,0,1,8.953,18Zm7.163-2.16A1.8,1.8,0,1,1,18,14.04,1.846,1.846,0,0,1,16.116,15.84Zm-14.231,0a1.8,1.8,0,1,1,0-3.6,1.8,1.8,0,1,1,0,3.6ZM9.047,3.6A1.846,1.846,0,0,1,7.162,1.8a1.887,1.887,0,0,1,3.77,0A1.846,1.846,0,0,1,9.047,3.6Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

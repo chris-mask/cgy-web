@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+  <meta http-equiv="pragram" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<!--  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+  <meta name="keywords" content="科技项目,项目申报,申报管理,科技政策,政策扶持,政策通知">
+  <meta name="description" content="成果云是整合科技创新与知识产权等领域为一体的一站式公共服务SaaS平台，提供服务包括：政策智能匹配、精准推送、订阅、科技项目申报咨询、申报管理，以及专利、商标、著作权版权的申请、转让、交易、到期续展提醒等一系列服务。">
+  <link rel="shortcut icon" href="/media/img/favicon.ico" type="images/x-ico"/>
+<!--  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10"></script>-->
+  <script src="static/vue.min.js"></script>
+<!--   引入样式-->
+  <link rel="stylesheet" href="static/element/index.css">
+  <!--   引入组件库-->
+  <script src="static/element/index.js"></script>
+  <title>成果云管理系统</title>
+  <style>
+    .el-tree-node__content {
+      margin: 5px;
+    }
+
+    .el-dialog__body {
+      /*padding: 0px 20px !important;*/
+    }
+
+    .el-select {
+      display: block !important;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .web-tips {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .web-tips .tips {
+      width: 50%;
+      max-width: 800px;
+      background: #fff;
+      border-radius: 4px;
+      margin: 15% auto;
+    }
+
+    .web-tips .tips .tip-head {
+      background: #f3f3f3;
+      text-align: center;
+      height: 46px;
+      line-height: 46px;
+    }
+
+    .web-tips .tips .tip-body {
+      background: #fff;
+      padding: 1.875rem 1.25rem;
+    }
+
+    .web-tips .tips .tip-body h3 {
+      font-size: 1.3125rem;
+      color: #4795F1;
+      margin-bottom: .625rem;
+      text-align: center;
+    }
+
+    .web-tips .tips .tip-body h5 {
+      text-align: center;
+      margin-bottom: .625rem;
+      color:#444;
+    }
+
+    .down-google {
+      display: flex;
+      justify-content: center;
+    }
+
+    .down-google img {
+      width: 6.25rem;
+    }
+
+    .down-google a {
+      display: inline-block;
+      width: 8rem;
+      height: 2rem;
+      text-decoration: none;
+      border: .0625rem solid #e23522;
+      border-radius: 3.125rem;
+      color: #e23522;
+      line-height: 2.1rem;
+      text-align: center;
+      margin: .3125rem 0
+    }
+
+    .down-google .left {
+      width: 45%;
+      text-align: right;
+      padding-right: 20px;
+    }
+
+    .down-google .right {
+      width: 55%;
+    }
+  </style>
+</head>
+<body>
+<script src=<%= htmlWebpackPlugin.options.path %>/tinymce4.7.5/tinymce.min.js></script>
+<div id="app"></div>
+
+<div class="web-tips" id="webTips">
+  <div class="tips">
+    <div class="tip-head">提示</div>
+    <div class="tip-body">
+      <h3>请使用 谷歌浏览器 访问本网站</h3>
+      <h5>如果是非ie浏览器 请切换到 <span style="color: red;">极速模式</span></h5>
+      <div class="down-google">
+        <div class="left">
+          <img src="static/google.png">
+        </div>
+        <div class="right">
+          <a href="https://zqlian.oss-cn-shenzhen.aliyuncs.com/download/ChromeSetup.exe" class="bs-block">
+            <i class="el icon-windows"></i>
+            Windows版下载
+          </a>
+          <a href="https://zqlian.oss-cn-shenzhen.aliyuncs.com/download/49.0.2623.112_chrome_installer.exe"
+             class="bs-block">
+            <i class="el icon-windows"></i>
+            Win XP版下载
+          </a>
+          <br/>
+          <a href="https://zqlian.oss-cn-shenzhen.aliyuncs.com/download/googlechrome.dmg" class="bs-block local">
+            <i class="el icon-mac"></i>
+            Mac版下载
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+  function isIe() {
+    let reg = /^.+(msie|trident).{0,2}(\d+).*$/i;
+    let result = reg.exec(navigator.userAgent);
+    if (result) {
+      document.getElementById('webTips').style.display = 'block'
+    }else{
+      document.getElementById('webTips').style.display = 'none'
+    }
+  }
+  isIe()
+
+</script>

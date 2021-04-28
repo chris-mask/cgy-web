@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.356" height="19.085" viewBox="0 0 18.356 19.085">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #d0e8f2;
+        stroke: rgba(0,0,0,0);
+      }
+
+      .cls-3 {
+        stroke: #00466a;
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="检测管理" transform="translate(-10.5 -91.499)">
+    <path id="路径_6381" data-name="路径 6381" class="cls-1" d="M0,0H18V18H0Z" transform="translate(10.5 92)"/>
+    <g id="组_2927" data-name="组 2927" transform="translate(-174.057 73.148)">
+      <path id="路径_6382" data-name="路径 6382" class="cls-2" d="M199.959,32.8a8.309,8.309,0,1,0-1.422,1.227l2.139,2.5a.94.94,0,0,0,1.325.1h0a.941.941,0,0,0,.1-1.326Z" transform="translate(0 0)"/>
+      <path id="路径_6383" data-name="路径 6383" class="cls-3" d="M187.443,27.565h2.025a.049.049,0,0,0,.046-.031l1.145-2.921a.049.049,0,0,1,.092,0l2.412,5.6a.049.049,0,0,0,.089,0l3.069-5.595a.049.049,0,0,1,.092.013l.58,2.668a.049.049,0,0,0,.049.039h3.249" transform="translate(0 -0.035)"/>
+    </g>
+  </g>
+</svg>
